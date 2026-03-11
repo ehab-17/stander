@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#123" />
+    <title>Home</title>
+
+    <!-- link normalize file-->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- link icon file -->
+    <link rel="stylesheet" href="./all.min.css" />
+    <!-- link AOS file (.css file)-->
+    <link rel="stylesheet" href="./aos.css" />
+    <!-- link main style file -->~
+    <script type="module" crossorigin src="./assets/js-bPkKahPY.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/js-vuSvQ8Pk.css">
+  </head>
+  <body class="overflow-x-hidden box-border p-0 m-0 relative">
+    <!-- start navbar -->
+    <header class="bg-white shadow-md fixed top-0 left-0 w-full z-50">
+      <nav
+        data-aos="fade-down"
+        class="container mx-auto flex items-center justify-between py-4 px-6 relative"
+      >
+        <div
+          class="logo font-bold uppercase text-3xl tracking-tighter text-gray-800"
+        >
+          stander
+        </div>
+
+        <ul
+          id="nav-ul"
+          class="hidden md:flex flex-col md:flex-row absolute md:static top-full left-0 w-full md:w-auto bg-white md:bg-transparent shadow-lg md:shadow-none gap-0 md:gap-8 transition-all duration-1000 ease-in-out border-t md:border-none border-gray-100"
+        >
+          <li>
+            <a
+              class="nav-link block px-6 py-4 md:p-0 text-black hover:text-secondary hover:bg-gray-50 md:hover:bg-transparent font-medium capitalize transition-all border-b md:border-none border-gray-50"
+              href="#"
+              >home</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav-link block px-6 py-4 md:p-0 text-black hover:text-secondary hover:bg-gray-50 md:hover:bg-transparent font-medium capitalize transition-all border-b md:border-none border-gray-50"
+              href="./src/html/about.html"
+              >about us</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav-link block px-6 py-4 md:p-0 text-black hover:text-secondary hover:bg-gray-50 md:hover:bg-transparent font-medium capitalize transition-all border-b md:border-none border-gray-50"
+              href="./src/html/services.html"
+              >services</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav-link block px-6 py-4 md:p-0 text-black hover:text-secondary hover:bg-gray-50 md:hover:bg-transparent font-medium capitalize transition-all border-b md:border-none border-gray-50"
+              href="./src/html/portfolio.html"
+              >portfolio</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav-link block px-6 py-4 md:p-0 text-black hover:text-secondary hover:bg-gray-50 md:hover:bg-transparent font-medium capitalize transition-all"
+              href="./src/html/contact.html"
+              >contact</a
+            >
+          </li>
+        </ul>
+
+        <div
+          class="md:hidden cursor-pointer text-2xl p-2 text-gray-700"
+          id="bars"
+        >
+          <i id="menu-icon" class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+    <div class="h-20"></div>
+    <!-- end navbar -->
+    <!-- start main section -->
+    <main class="bg-linear-to-l from-main to-secondary">
+      <div class="container mx-auto max-md:px-3">
+        <div
+          class="py-10 grid max-md:grid-cols-1 place-items-center md:grid-cols-2 max-md:gap-7"
+        >
+          <div class="main-content">
+            <h1
+              class="uppercase font-extrabold-italic text-white"
+              data-aos="fade-right"
+            >
+              business solution
+            </h1>
+            <h2
+              class="text-white font-regular text-4xl capitalize py-2"
+              data-aos-delay="500"
+              data-aos="fade-right"
+            >
+              we help business grow with
+              <span class="text-main font-extrabold-italic text-5xl"
+                >smart</span
+              >
+              digital solution
+            </h2>
+            <p
+              data-aos="fade-right"
+              data-aos-delay="1000"
+              class="text-2xl text-gray-400 font-regular leading-6"
+            >
+              we provide reliable, scalable, and secure services <br />
+              designed to help your business succeed.
+            </p>
+            <button
+              data-aos="fade-right"
+              data-aos-delay="1500"
+              class="rounded-lg bg-main text-white px-4 py-4 border-none"
+              id="get-started-btn"
+            >
+              <a class="capitalize" href="./src/html/contact.html">
+                get started<span class="pl-2"
+                  ><i class="fas fa-arrow-right"></i></span
+              ></a>
+            </button>
+            <button
+              data-aos="fade-left"
+              data-aos-delay="1500"
+              class="rounded-lg px-4 py-4 bg-transparent capitalize text-white border-2 border-main"
+              id="learn-more-btn"
+            >
+              <span class="pr-2"><i class="fas fa-play"></i></span> learn more
+            </button>
+          </div>
+          <div class="main-img" data-aos="fade-left" data-aos-delay="1000">
+            <img src="./images/main.svg" alt="The main section image" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- end main section -->
+    <!-- start why choose us section -->
+    <section class="choose-us">
+      <div class="container mx-auto pt-10 max-md:px-3">
+        <h2
+          class="text-5xl text-secondary capitalize text-center font-semibold"
+        >
+          why choose us?
+        </h2>
+        <div class="choose-items grid md:grid-cols-2 lg:grid-cols-3 py-6 gap-3">
+          <div
+            data-aos="zoom-in-up"
+            class="choose-item text-white text-center bg-card rounded-2xl shadow"
+          >
+            <i
+              class="fas fa-user-gear block py-4 bg-icon text-white pr-8 pl-4 mt-6 rounded-full"
+            ></i>
+            <h3 class="capitalize py-2 font-title text-2xl">expert guidance</h3>
+            <p class="pb-6 text-lg text-description">
+              Decades of collective experience in business optimization and
+              digital transformation .
+            </p>
+          </div>
+          <div
+            data-aos="zoom-in-up"
+            data-aos-delay="100"
+            class="choose-item text-white text-center bg-card rounded-2xl shadow"
+          >
+            <i
+              class="fas fa-shield block py-4 bg-icon text-white pr-8 pl-4 mt-6 rounded-full"
+            ></i>
+            <h3 class="capitalize py-2 font-title text-2xl">
+              tailored strategies
+            </h3>
+            <p class="pb-6 text-lg text-description">
+              Custom solutions designed specififcally for your unique goals
+            </p>
+          </div>
+          <div
+            data-aos="zoom-in-up"
+            data-aos-delay="200"
+            class="choose-item text-white text-center bg-card rounded-2xl shadow"
+          >
+            <i
+              class="fas fa-signal block py-4 bg-icon text-white pr-8 pl-4 mt-6 rounded-full"
+            ></i>
+            <h3 class="capitalize py-2 font-title text-2xl">proven results</h3>
+            <p class="pb-6 text-lg text-description">
+              A track record of helping companies increase efficiency and
+              revenue
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end why choose us section -->
+    <!-- start services -->
+    <section class="our-services">
+      <div class="container mx-auto pt-10 max-md:px-3">
+        <h2
+          class="text-5xl text-secondary capitalize text-center font-semibold"
+        >
+          services we provide
+        </h2>
+        <div class="services grid md:grid-cols-2 lg:grid-cols-3 py-6 gap-3">
+          <div
+            data-aos="fade-up"
+            class="service text-white text-center bg-card rounded-2xl shadow"
+          >
+            <i
+              class="fas fa-bullhorn py-4 bg-icon text-icon-color block pr-8 pl-4 mt-6 rounded-full"
+            ></i>
+            <h3 class="capitalize pt-2 font-title text-xl">
+              digital marketing
+            </h3>
+            <p class="text-lg capitalize py-3 text-gray-200">
+              boost your brand visibility with data-driven marketing strategies
+              that convert audiences into loyal customer
+            </p>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="100"
+            class="service text-white text-center bg-card rounded-2xl shadow"
+          >
+            <i
+              class="fas fa-code py-4 bg-icon text-icon-color block pr-8 pl-4 mt-6 rounded-full"
+            ></i>
+            <h3 class="capitalize pt-2 font-title text-xl">web development</h3>
+            <p class="text-lg capitalize py-3 text-description">
+              high-performance websites built with latest technologies for
+              speed, security, and scalability
+            </p>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="200"
+            class="service text-white text-center bg-card rounded-2xl shadow"
+          >
+            <i
+              class="fas fa-briefcase block py-4 bg-icon text-icon-color pr-8 pl-4 mt-6 rounded-full"
+            ></i>
+            <h3 class="capitalize pt-2 font-title text-xl">
+              business consulting
+            </h3>
+            <p class="text-lg capitalize py-3 text-description">
+              stratigic advice to streamline your operation, reduce cost, and
+              maxmize sustainable growth
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end services -->
+    <!-- start our statistics section -->
+    <section class="bg-main">
+      <h3 class="text-center py-3 capitalize text-white font-semibold text-4xl">
+        company statistics
+      </h3>
+      <div
+        class="container mx-auto grid md:grid-cols-2 lg:grid-cols-4 py-8 text-center"
+      >
+        <div class="state mb-4 text-white" data-aos="flip-left">
+          <div class="font-counter text-2xl">
+            +<span class="counter" data-target="250">0</span>
+          </div>
+          <p class="font-medium text-xl capitalize">happy client</p>
+        </div>
+        <div class="state mb-4 text-white" data-aos="flip-left" data-aos-delay="100">
+          <div class="font-counter text-2xl">
+            +<span class="counter" data-target="1200">0</span>
+          </div>
+          <p class="font-medium text-xl capitalize">projects completed</p>
+        </div>
+        <div class="state mb-4 text-white" data-aos="flip-left" data-aos-delay="200">
+          <div class="font-counter text-2xl">
+            +<span class="counter" data-target="15">0</span>
+          </div>
+          <p class="font-medium text-xl capitalize">awards won</p>
+        </div>
+        <div class="state mb-4 text-white" data-aos="flip-left" data-aos-delay="300">
+          <div class="font-counter text-2xl">
+            +<span class="counter" data-target="10">0</span>
+          </div>
+          <p class="font-medium text-xl capitalize">years of experience</p>
+        </div>
+      </div>
+    </section>
+    <!-- end our states section -->
+    <!-- start clients reviews section -->
+    <section class="bg-gray-100">
+      <div class="container pt-10 mx-auto">
+        <h3
+          class="capitalize text-center text-secondary font-semibold text-5xl"
+        >
+          clients reviews
+        </h3>
+        <div
+          class="reviews py-6 grid md:grid-cols-2 lg:grid-cols-3 gap-4 max-md:px-3"
+        >
+          <div
+            data-aos="fade-up"
+            class="p-8 bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100"
+          >
+            <p class="text-gray-600 italic leading-relaxed mb-6">
+              "stander transformed our digital presence . Thier team
+              professional,resonsive, and truly cares about our success. We 've
+              seen a 200% increase in leads since partnering with them."
+            </p>
+            <div class="mr-4 text-right">
+              <h4 class="text-lg font-bold text-gray-800 capitalize">
+                jhon deo
+              </h4>
+              <p class="text-sm text-gray-500">CEO of TechFlow</p>
+            </div>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="100"
+            class="p-8 bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100"
+          >
+            <p class="text-gray-600 italic leading-relaxed mb-6">
+              "Working with stander has been a game-changer for our business.
+              Thier stratigic insights and excution have exceeded all
+              exceptations "
+            </p>
+            <div class="mr-4 text-right">
+              <h4 class="text-lg font-bold text-gray-800 capitalize">
+                sarah miller
+              </h4>
+              <p class="text-sm text-gray-500">Founder of GrowthLabs</p>
+            </div>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="200"
+            class="p-8 bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100"
+          >
+            <p class="text-gray-600 italic leading-relaxed mb-6">
+              "The team at stander delivered our project on time and within
+              budget. Their attention to detail and commitment to quality is
+              unmatched "
+            </p>
+            <div class="mr-4 text-right">
+              <h4 class="text-lg font-bold text-gray-800 capitalize">
+                michael chen
+              </h4>
+              <p class="text-sm text-gray-500">CTO of DataSync</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end clients reviews section -->
+    <!-- start footer  -->
+    <footer class="bg-main mb-0">
+      <div class="container mx-auto text-white py-7 max-md:px-3">
+        <div class="footer-main-content grid md:grid-cols-2 lg:grid-cols-3">
+          <div class="stander-footer-content">
+            <h2 class="capitalize font-bold text-2xl pb-3">stander</h2>
+            <p class="text-lg pb-3 capitalize">
+              stander is a leading provider of digital solutions dedicated to
+              empowering businesses worldwide. We combine innovation with
+              expertise to deliver transformative results
+            </p>
+          </div>
+          <div class="links">
+            <h3 class="capitalize font-bold text-2xl pb-2">quick links</h3>
+            <a
+              class="block capitalize text-xl pb-2"
+              href="./src/html/about.html"
+            >
+              about us</a
+            >
+            <a
+              class="block capitalize text-xl pb-2"
+              href="./src/html/services.html"
+              >services</a
+            >
+            <a
+              class="block capitalize text-xl pb-2"
+              href="./src/html/contact.html"
+              >contact</a
+            >
+            <a
+              class="block capitalize text-xl pb-2"
+              href="./src/html/portfolio.html"
+              >portfolio</a
+            >
+          </div>
+          <div class="contact-us">
+            <h3 class="capitalize font-bold text-2xl pb-2">contact us</h3>
+            <div class="adress flex items-center gap-2 pb-1">
+              <i class="fas fa-location-dot text-lg text-footer-icon"></i>
+              <address>
+                <a
+                  class="text-lg"
+                  href="https://goo.gl/maps/xyz123"
+                  >123 Business Avenue,NY</a
+                >
+              </address>
+            </div>
+            <div class="phone flex gap-2 items-center pb-1">
+              <i class="fas fa-phone text-lg text-footer-icon"></i>
+              <a class="text-lg" href="tel:+1 234 567 890"> +1 234 567 890</a>
+            </div>
+            <div class="email flex gap-2 items-center pb-2">
+              <i class="fas fa-envelope text-lg text-footer-icon"></i>
+              <a class="text-lg" href="mailto:support@stander.com"
+                >support@stander.com</a
+              >
+            </div>
+          </div>
+        </div>
+        <hr class="text-white" />
+        <div class="policy pt-4 text-center">
+          <h3 class="font-medium text-lg">
+            &copy;2026 stander. All Rights Reserved.
+          </h3>
+          <a class="pt-3" href="#">privacy Policy</a>
+          <a href="#">Terms of service</a>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer  -->
+    <!-- scroll to top button -->
+    <button
+      id="scroll-to-top"
+      class="fixed hidden bottom-5 right-5 bg-gray-800 text-white rounded-full w-12 h-12 hover:bg-gray-700 transition duration-300"
+    >
+      <i class="fas fa-angle-up"></i>
+    </button>
+    <!-- link AOS file -->
+    <script src="./aos.js"></script>
+    <!-- actice the AOS file -->
+    <script>
+      AOS.init({
+        duration: 800,
+        once: true,
+        offset: 120,
+      });
+    </script>
+    <!-- link javascript file -->
+  </body>
+</html>
